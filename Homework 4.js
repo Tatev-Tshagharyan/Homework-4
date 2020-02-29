@@ -131,8 +131,6 @@ console.log(emptyRectangle(6));
 //homework 4.8
 function patternNumber(number){
 let result=0;
-let m;
-let n;
 for(let i=1;i<=number;i++){
     for(let j=1;j<=i;j++){
         result+=j;
